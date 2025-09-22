@@ -3,10 +3,10 @@ body{
     background-color: #78B5E4;  
     color: #333333;
     padding: 0;
-    margin: 0;
+    margin: 0;    
 }
 header{
-    background-color: #000000;
+    background-color: #003366;
     color: #FFFFFF;
     padding: 22px;
     text-align: center;
@@ -19,7 +19,7 @@ header{
 }
 aside{
     flex: 1;
-    background-color: #12AB9B;
+    background-color: #FFD700;
     border: 1px solid #cccccc;
     padding: 15px;
     border-radius: 5px;
@@ -47,4 +47,11 @@ footer{
     text-align: center;
     padding: 10px;
     font-size: 9px;
+}
+iframe[name="conteudo"] {
+    width: 100%;
+    height: 1000px; 
+    border: none;
+    background: #fff;
+    border-radius: 10px;
 }
