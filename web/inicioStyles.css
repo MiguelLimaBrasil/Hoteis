@@ -1,0 +1,15 @@
+body{
+    background-color: #79D8EB;
+    
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
