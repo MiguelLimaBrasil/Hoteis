@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Cadastro de Hóspede</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tableStyles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Cadastro de Hóspede</h1>
+
+    <form method="post" action="salvar_hospede.jsp">
+        <table>
+            <tr>
+                <td><label for="id_comprador">ID do Comprador:</label></td>
+                <td><input type="text" name="id_comprador" id="id_comprador" required></td>
+            </tr>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" name="nome" id="nome" size="50" maxlength="50" required></td>
+            </tr>
+            <tr>
+                <td><label for="email_comprador">Email:</label></td>
+                <td><input type="email" name="email_comprador" id="email_comprador" size="50" maxlength="50" required></td>
+            </tr>
+            <tr>
+                <td><label for="cpf">CPF:</label></td>
+                <td><input type="text" name="cpf" id="cpf" maxlength="14" required></td>
+            </tr>
+            <tr>
+                <td><label for="senha">Senha:</label></td>
+                <td><input type="password" name="senha" id="senha" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Cadastrar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
