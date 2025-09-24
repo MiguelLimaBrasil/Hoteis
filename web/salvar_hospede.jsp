@@ -49,8 +49,6 @@
         mensagem = "Erro: " + e.getMessage();
     }
 %>
-
-
     <h2><%= mensagem %></h2>
     <a href="cadastro_hospede.html">Voltar ao cadastro</a>
 </body>
