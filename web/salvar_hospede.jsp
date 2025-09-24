@@ -12,7 +12,6 @@
 <body>
 
 <%
-    String idComprador = request.getParameter("id_comprador");
     String nome = request.getParameter("nome");
     String email = request.getParameter("email_comprador");
     String cpf = request.getParameter("cpf");
@@ -29,9 +28,8 @@
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conexao = DriverManager.getConnection(url, usuario, senhaBD);
 
-        String sql = "INSERT INTO hospedes (id_comprador, nome, email_comprador, cpf, senha) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO hospedes (nome, email_comprador, cpf, senha) VALUES (?, ?, ?, ?)";
         PreparedStatement stmt = conexao.prepareStatement(sql);
-        stmt.setString(1, idComprador);
         stmt.setString(2, nome);
         stmt.setString(3, email);
         stmt.setString(4, cpf);
