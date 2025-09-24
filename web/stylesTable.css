@@ -1,0 +1,25 @@
+table, tr, td, th{
+    /*
+    border: 1px solid black;
+    */
+    border-collapse: collapse;
+    padding: 5px;
+}
+#tabela_listar{
+    border: 1px solid black;
+}
+#tabela_listar tr{
+    border: 1px solid black;
+}
+#tabela_listar td{
+    border: 1px solid black;
+}
+#tabela_listar th{
+    border: 1px solid black;
+}
+#tabela_listar tr:hover{
+    background-color: yellow;
+}
+#acao{
+    text-align: center;
+}
