@@ -9,7 +9,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Estilo do formulário */
+
 form {
     background-color: #fff;
     padding: 30px;
@@ -17,18 +17,16 @@ form {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Estilo da tabela */
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* Espaçamento entre células */
 td {
     padding: 10px;
 }
 
-/* Estilo do título */
 h1 {
     position: absolute;
     top: 20px;
