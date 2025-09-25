@@ -19,11 +19,6 @@
 
     String mensagem = "";
 
-    // Dados da conexão (substitua conforme seu ambiente)
-    String url = "jdbc:mysql://localhost:3306/seubanco";
-    String usuario = "root";
-    String senhaBD = "suaSenha";
-
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conexao = DriverManager.getConnection(url, usuario, senhaBD);
